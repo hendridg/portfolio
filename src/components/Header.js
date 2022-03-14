@@ -1,6 +1,3 @@
-/* eslint-disable no-confusing-arrow */
-/* eslint-disable operator-linebreak */
-/* eslint-disable implicit-arrow-linebreak */
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import styled from 'styled-components';
