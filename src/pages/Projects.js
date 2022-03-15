@@ -1,7 +1,6 @@
 import React from 'react';
+import UnderConstruction from '../components/UnderConstruction';
 
-const Projects = () => (
-  <div>Projects</div>
-);
+const Projects = () => <UnderConstruction />;
 
 export default Projects;

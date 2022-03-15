@@ -1,7 +1,6 @@
 import React from 'react';
+import UnderConstruction from '../components/UnderConstruction';
 
-const Blog = () => (
-  <div>Blog</div>
-);
+const Blog = () => <UnderConstruction />;
 
 export default Blog;
