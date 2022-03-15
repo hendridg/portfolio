@@ -12,15 +12,22 @@ const Title = styled.h1`
     display: block;
     position: relative;
     bottom: 3rem;
-    background-color: white;
+    background-color: ${(props) => props.lineColor};
     color: white;
   }
 `;
 
-const TitleSection = ({ children }) => <Title>{children}</Title>;
+const TitleSection = ({ children, lineColor }) => (
+  <Title lineColor={lineColor}>{children}</Title>
+);
 
 TitleSection.propTypes = {
   children: PropTypes.string.isRequired,
+  lineColor: PropTypes.string,
+};
+
+TitleSection.defaultProps = {
+  lineColor: 'white',
 };
 
 export default TitleSection;
