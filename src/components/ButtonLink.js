@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const Btn = styled.a`
+  font-family: 'Poppins', sans-serif;
   background-color: ${(props) => (props.accent ? 'greenyellow' : '#228be6')};
   color: #1f1f1f;
   text-decoration: none;
@@ -10,7 +11,7 @@ const Btn = styled.a`
   padding: 1.5em 3em;
   border-radius: 2em;
   border: none;
-  font-weight: 900;
+  font-weight: 500;
   letter-spacing: 1px;
   cursor: pointer;
   transition: box-shadow ease-in-out 300ms, opacity ease-in-out 300ms;
