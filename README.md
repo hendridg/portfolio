@@ -5,20 +5,24 @@
 ![React Router](https://img.shields.io/badge/GraphQL-311C87?style=for-the-badge&logo=graphql&logoColor=white)
 
 # Personal Portfolio
+
 ![hendridg](https://img.shields.io/badge/hendridg-develoment-green)
+
 > "Personal Porfolio", this project is for update my preview portfolio, with a modern design, using React and Styled-Components
 
-<!-- ## Live Demo
+## Live Demo
 
-[Live Demo Link Netlify](https://mystifying-varahamihira-cda443.netlify.app/) -->
+[Live Demo Link Heroku](https://portfolio-hendrid.herokuapp.com/)
 
 > Desktop Design
 
 ![screenshot](./screenshot-01.png)
+![screenshot](./screenshot-01-1.png)
 
 > Mobile Design
 
 ![screenshot](./screenshot-02.png)
+![screenshot](./screenshot-02-1.png)
 
 > Built With
 
@@ -32,7 +36,7 @@
 
   ```
   https://github.com/hendridg/portfolio
-  
+
   ```
 
 - Open the folder project from your code editor.
