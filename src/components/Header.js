@@ -50,7 +50,6 @@ const NavBar = styled.div`
 
 const Nav = styled(NavLink)`
   text-decoration: none;
-  color: white;
   letter-spacing: 2px;
   font-size: 1em;
   font-weight: bold;
@@ -63,15 +62,15 @@ const Nav = styled(NavLink)`
     display: block;
     position: relative;
     top: 3px;
-    background-color: white;
-    color: white;
+    background-color: #ffd644;
     color: #a9adc1;
+
     transform: scaleX(0);
     transition: 500ms;
     transition-timing-function: cubic-bezier(1, -0.65, 0, 2.31);
   }
   :hover {
-    color: white;
+    color: #ffd644;
     :after {
       transform: scaleX(1);
     }
@@ -86,7 +85,6 @@ const Nav = styled(NavLink)`
       position: relative;
       top: 3px;
       background-color: white;
-      color: white;
       transform: scaleX(1);
     }
   }

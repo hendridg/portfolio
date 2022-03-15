@@ -57,7 +57,7 @@ const recentWorks = [
 const Works = () => (
   <WrapperWork>
     <Container>
-      <TitleSection>Works</TitleSection>
+      <TitleSection lineColor="greenyellow">Recent Works</TitleSection>
       <CardsContainer>
         {recentWorks.map((work) => (
           <Card

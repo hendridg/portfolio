@@ -9,15 +9,19 @@ const WrapperCard = styled.div`
   width: 18rem;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 0.8rem;
   gap: 0.8rem;
+  border-radius: 0.3em;
+  border: solid 1px #2e3039; //
 `;
 
 const ImgContainer = styled.div`
   overflow: hidden;
   box-sizing: border-box;
   height: 20rem;
-  /* max-width: 1rem; */
-  border-radius: 0.2em;
+  border-top-left-radius: 0.2em;
+  border-top-right-radius: 0.2em;
+
   img {
     width: 100%;
     min-height: 25rem;
@@ -26,7 +30,8 @@ const ImgContainer = styled.div`
 `;
 
 const TitleCard = styled.p`
-  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3rem;
   margin: 0;
 `;
 

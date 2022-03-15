@@ -22,9 +22,12 @@ const Content = styled.div`
   text-align: center;
   font-size: 0.9rem;
   h1 {
-    color: #862e9c;
+    /* color: #862e9c; */
+    color: #ffd644;
   }
   h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     line-height: 1.5em;
     opacity: 0.6;
   }
@@ -56,9 +59,9 @@ const Heading = () => (
     <Container>
       <Content>
         <h1>Hendrid G.</h1>
-        <h2 style={{ fontFamily: 'Confortaa', color: '#e67700', opacity: '1' }}>
-          I’m a software developer
-        </h2>
+        <h1 style={{ fontSize: '2.5em', color: '#e67700', opacity: '1' }}>
+          Full-Stack Web Development
+        </h1>
         <h2>
           I can help you build a product, feature or website Look through some
           of my work and experience! If you like what you see and have a project
