@@ -4,6 +4,11 @@ import Contact from '../components/Contact';
 import Heading from '../components/Heading';
 import Works from '../components/Works';
 
+/**
+ * Home page
+ * @returns Home page
+ */
+
 const Home = () => (
   <div
     style={{
